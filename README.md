@@ -25,7 +25,9 @@ $ ./my-tcp-variants-comparison.sh
 
 # Codes
 
-## `tcp-algorithm
+## `tcp-algorithm-comparison.sh`
+
+## `tcp-algorithm-comparison.plt`
 
 # License
 MIT
