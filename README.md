@@ -79,8 +79,8 @@ ns-3 scenario script to simulate TCP congestion control. It's based on [`tcp-var
 Python script to manipulate and visualize data. 
 
 * `get_data()`: Gets and manipulates data. 
-* `plot_cwnd_ack_rtt_each_algorithm(duration)`: Plot cwnd, ACK, and RTT of each algorithm. It saves twelve `data/Tcp{algorithm}{duration}-cwnd-ack-rtt.png`s.
-* `plot_cwnd_all_algorihtms(duration)`: Plot cwnd and ssthresh of all algorithms. It saves  `data/TcpAll{duration}-cwnd.png`.
+* `plot_cwnd_ack_rtt_each_algorithm()`: Plot cwnd, ACK, and RTT of each algorithm. It saves twelve `data/Tcp{algorithm}{duration}-cwnd-ack-rtt.png`s.
+* `plot_cwnd_all_algorihtms()`: Plot cwnd and ssthresh of all algorithms. It saves  `data/TcpAll{duration}-cwnd.png`.
 
 # Enjoy comparison
 Just run `compare-tcp-algorithms.sh`.
@@ -90,7 +90,7 @@ $ cd ~/ns-3.26/source/ns-3.26
 $ ./compare-tcp-algorithms.sh
 ```
 
-## 
+![fig/TcpAll.png](fig/TcpAll.png)
 
 # License
 * `compare-tcp-algorithms` and `plottcpalgo.py`: MIT
