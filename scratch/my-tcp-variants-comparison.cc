@@ -15,7 +15,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
- * Authors: haltaro <github.com/haltaro>
+ * Author: haltaro <github.com/haltaro>
  * Reseacher in a Japanese company. His reseach interests are related to
  * network architectures, protocols, traffic control, mathematical modeling,
  * optimization, machine learning, and shiba dog :-)
