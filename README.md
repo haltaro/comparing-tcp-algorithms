@@ -2,6 +2,8 @@
 
 Codes for comparing TCP congestion control algorithms with ns-3 and visualizing with matplotlib.
 
+![fig/TcpAll.png](fig/TcpAll.png)
+
 # Requirements
 
 I assume Linux system. You have to install:
@@ -18,7 +20,7 @@ Hereinafter, I assume ns-3.26 is installed in `~/ns-3.26/source/ns-3.26/`.
 
 Based on ns-3 implementation([`~/ns-3.26/source/ns-3.26/src/internet/model/tcp-socket-base.cc`](https://www.nsnam.org/docs/release/3.26/doxygen/tcp-socket-base_8cc.html)), I assume the congestion states shown below:
 
-![fig/TcpAll.png](fig/TcpAll.png)
+![congestion-state](fig/congestion-state.png)
 
 * OPEN:
 * DISORDER:
