@@ -48,11 +48,11 @@ Based on [ns-3 implementation](https://www.nsnam.org/docs/models/html/tcp.html),
 
 # Installation
 
-1. Add `tcp-algorithm-comparison.sh` and `plottcpalgo.py` to `~ns-3.26/source/ns-3.26/`
+1. Add `tcp-algorithm-comparison.sh` and `plottcpalgo.py` to `~/ns-3.26/source/ns-3.26/`
 
-2. Add `my-tcp-variants-comparison.cc` to `~ns-3.26/source/ns-3.26/scratch`
+2. Add execute permission to `tcp-algorithm-comparison.sh` and `plottcpalgo.py`
 
-3. Make a new directry `~ns-3.26/source/ns-3.26/data`
+3. Add `my-tcp-variants-comparison.cc` to `~/ns-3.26/source/ns-3.26/scratch`
 
 4. Compile `my-tcp-variants-comparison.cc` by the command below:
 
@@ -60,6 +60,8 @@ Based on [ns-3 implementation](https://www.nsnam.org/docs/models/html/tcp.html),
 $ cd ~ns-3.26/source/ns-3.26/
 $ ./waf
 ```
+
+5. Make a new directry `~/ns-3.26/source/ns-3.26/data`
 
 # Codes
 
