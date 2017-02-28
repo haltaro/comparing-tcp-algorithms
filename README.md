@@ -9,13 +9,14 @@ I assume Linux system. You have to install:
 * [Python](https://www.python.org/): I used version 2.7.11.
 * [NumPy](http://www.numpy.org/): For data manipulation. I used version 1.10.4.
 * [matplotlib](http://matplotlib.org/): For visualization. I used version 1.5.1.
-Hereinafter I assume ns-3.26 is installed in `~/ns-3.26/source/ns-3.26/`.
+
+Hereinafter, I assume ns-3.26 is installed in `~/ns-3.26/source/ns-3.26/`.
 
 # Model
 
 ## Congestion state
 
-Based on [ns-3 implementation](), I assume the congestion states shown below:
+Based on ns-3 implementation([`~/ns-3.26/source/ns-3.26/src/internet/model/tcp-socket-base.cc`](https://www.nsnam.org/docs/release/3.26/doxygen/tcp-socket-base_8cc.html)), I assume the congestion states shown below:
 * OPEN:
 * DISORDER:
 * RECOVERY:
@@ -23,7 +24,7 @@ Based on [ns-3 implementation](), I assume the congestion states shown below:
 
 ## Congestion control algorithms
 
-Based on [ns-3 implementation](), I assume the congestion control algorithms shown below:
+Based on [ns-3 implementation](https://www.nsnam.org/docs/models/html/tcp.html), I assume the congestion control algorithms shown below:
 
 |Algorithm|`TypeId`|source|
 |:--|:--|:--|
