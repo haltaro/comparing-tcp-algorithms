@@ -5,10 +5,11 @@ Codes for comparing TCP congestion control algorithms with ns-3 and visualizing 
 # Requirements
 
 I assume Linux system. You have to install:
-* [ns-3](https://www.nsnam.org/): Refer to [tutorial](https://www.nsnam.org/docs/release/3.26/tutorial/html/index.html). I used version 3.26.
-* Python: I used version 2.7.11.
+* [ns-3](https://www.nsnam.org/): For network simulation. I used version 3.26.
+* [Python](https://www.python.org/): I used version 2.7.11.
 * [NumPy](http://www.numpy.org/): For data manipulation. I used version 1.10.4.
 * [matplotlib](http://matplotlib.org/): For visualization. I used version 1.5.1.
+Hereinafter I assume ns-3.26 is installed in `~/ns-3.26/source/ns-3.26/`.
 
 # Model
 
