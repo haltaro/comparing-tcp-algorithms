@@ -20,10 +20,10 @@ Based on ns-3 implementation([`~/ns-3.26/source/ns-3.26/src/internet/model/tcp-s
 
 ![fig/TcpAll.png](fig/TcpAll.png)
 
-* OPEN:
-* DISORDER:
-* RECOVERY:
-* LOSS: 
+* OPEN: Normal state, no dubious events.
+* DISORDER: When some SACKs or duplicate ACK.
+* RECOVERY: When triple duplicate ACK. cwnd was redueced.
+* LOSS: When timeout or SACK reneging.
 
 ## Congestion control algorithms
 
@@ -45,6 +45,8 @@ Based on [ns-3 implementation](https://www.nsnam.org/docs/models/html/tcp.html),
 |[H-TCP](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.3.7816&rep=rep1&type=pdf) | `TcpHtcp`| [`tcp-htcp.cc`](https://www.nsnam.org/docs/release/3.26/doxygen/tcp-htcp_8cc.html) |
 
 # Installation
+
+1. Add `tcp-algorithm-comparison.sh` to `~ns-3.26/source/ns-3.26/`
 
 
 # Codes
