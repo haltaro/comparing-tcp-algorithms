@@ -17,6 +17,9 @@ Hereinafter, I assume ns-3.26 is installed in `~/ns-3.26/source/ns-3.26/`.
 ## Congestion state
 
 Based on ns-3 implementation([`~/ns-3.26/source/ns-3.26/src/internet/model/tcp-socket-base.cc`](https://www.nsnam.org/docs/release/3.26/doxygen/tcp-socket-base_8cc.html)), I assume the congestion states shown below:
+
+![fig/TcpAll.png](fig/TcpAll.png)
+
 * OPEN:
 * DISORDER:
 * RECOVERY:
