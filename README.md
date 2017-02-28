@@ -24,7 +24,7 @@ Based on ns-3 implementation([`~/ns-3.26/source/ns-3.26/src/internet/model/tcp-s
 
 * OPEN: Normal state, no dubious events.
 * DISORDER: When some SACKs or duplicate ACK.
-* RECOVERY: When triple duplicate ACK. cwnd was redueced.
+* RECOVERY: When triple duplicate ACK. cwnd was reduced.
 * LOSS: When timeout or SACK reneging.
 
 ## Congestion control algorithms
@@ -46,7 +46,7 @@ Based on [ns-3 implementation](https://www.nsnam.org/docs/models/html/tcp.html),
 |[Illinois](http://dl.acm.org/citation.cfm?id=1190166) | `TcpIllinois`| [`tcp-illinois.cc`](https://www.nsnam.org/docs/release/3.26/doxygen/tcp-illinois_8cc.html) |
 |[H-TCP](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.3.7816&rep=rep1&type=pdf) | `TcpHtcp`| [`tcp-htcp.cc`](https://www.nsnam.org/docs/release/3.26/doxygen/tcp-htcp_8cc.html) |
 
-# Installation
+# Install
 
 1. Make a new directry `~/ns-3.26/source/ns-3.26/data`
 
