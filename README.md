@@ -48,39 +48,50 @@ Based on [ns-3 implementation](https://www.nsnam.org/docs/models/html/tcp.html),
 
 # Installation
 
-1. Add `tcp-algorithm-comparison.sh` and `plottcpalgo.py` to `~/ns-3.26/source/ns-3.26/`
+1. Make a new directry `~/ns-3.26/source/ns-3.26/data`
 
-2. Add execute permission to `tcp-algorithm-comparison.sh` and `plottcpalgo.py`
+2. Add `compare-tcp-algorithms.sh` and `plottcpalgo.py` to `~/ns-3.26/source/ns-3.26/`
 
-3. Add `my-tcp-variants-comparison.cc` to `~/ns-3.26/source/ns-3.26/scratch`
+3. Add execute permission to `compare-tcp-algorithms.sh` and `plottcpalgo.py`
 
-4. Compile `my-tcp-variants-comparison.cc` by the command below:
+4. Add `my-tcp-variants-comparison.cc` to `~/ns-3.26/source/ns-3.26/scratch`
+
+5. Compile `my-tcp-variants-comparison.cc` by the command below:
 
 ```bash
 $ cd ~ns-3.26/source/ns-3.26/
 $ ./waf
 ```
 
-5. Make a new directry `~/ns-3.26/source/ns-3.26/data`
 
 # Codes
 
-## `tcp-algorithm-comparison.sh`
+## `compare-tcp-algorithms.sh`
+
+Shell script to run ns-3 and call `plottcpalgo.py`. 
 
 ## `my-tcp-variants-comparison.cc`
 
+ns-3 scenario script to simulate TCP congestion control. It's based on [`tcp-variants-comparison.cc`](https://www.nsnam.org/docs/release/3.26/doxygen/tcp-variants-comparison_8cc.html). I added tracing targets: ACK and congestion state.
+
 ## `plottcpalgo.py`
 
+Python script to manipulate and visualize data. 
+
+* `get_data()`: Gets and manipulates data. 
+* `plot_cwnd_ack_rtt_each_algorithm(duration)`: Plot cwnd, ACK, and RTT of each algorithm. It saves twelve `data/Tcp{algorithm}{duration}-cwnd-ack-rtt.png`s.
+* `plot_cwnd_all_algorihtms(duration)`: Plot cwnd and ssthresh of all algorithms. It saves  `data/TcpAll{duration}-cwnd.png`.
+
 # Enjoy comparison
-Just run `my-tcp-variants-comparison.sh`.
+Just run `compare-tcp-algorithms.sh`.
 
 ```bash
 $ cd ~/ns-3.26/source/ns-3.26
-$ ./my-tcp-variants-comparison.sh
+$ ./compare-tcp-algorithms.sh
 ```
 
 ## 
 
 # License
-* `my-tcp-variants-comparison.sh` and `plottcpalgo.py`: MIT
+* `compare-tcp-algorithms` and `plottcpalgo.py`: MIT
 * `my-tcp-variants-comparison.cc`: GNU GPLv2
