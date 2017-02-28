@@ -2,7 +2,7 @@
 
 Comparing TCP congestion control algorithms with ns-3 and visualizing with matplotlib.
 
-![fig/TcpAll.png](fig/TcpAll.png)
+![fig/TcpAll020-cwnd.png](fig/TcpAll020-cwnd.png)
 
 # Requirements
 
@@ -92,9 +92,11 @@ $ ./compare-tcp-algorithms.sh
 
 ## All algorithms
 
-![fig/TcpAll.png](fig/TcpAll.png)
+![fig/TcpAll020-cwnd.png](fig/TcpAll020-cwnd.png)
 
 ## cwnd, ACK, and RTT of each algorithm
+
+![fig/TcpNewReno020-cwnd-ack-rtt.png](fig/TcpNewReno020-cwnd-ack-rtt.png)
 
 # License
 * `compare-tcp-algorithms` and `plottcpalgo.py`: MIT
