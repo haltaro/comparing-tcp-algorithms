@@ -94,9 +94,33 @@ $ ./compare-tcp-algorithms.sh
 
 ![fig/TcpAll020-cwnd.png](fig/TcpAll020-cwnd.png)
 
+X-axis is time [s], and Y-axis is cwnd [segment]. The digit lines are cwnd, dotted lines are ssthresh. Colors are corresponding to congestion states: blue is OPNE, yellow is RECOVERY, and red is LOSS.
+
 ## cwnd, ACK, and RTT of each algorithm
 
 ![fig/TcpNewReno020-cwnd-ack-rtt.png](fig/TcpNewReno020-cwnd-ack-rtt.png)
+
+![fig/TcpHighSpeed020-cwnd-ack-rtt.png](fig/TcpHighSpeed020-cwnd-ack-rtt.png)
+
+![fig/TcpHybla020-cwnd-ack-rtt.png](fig/TcpHybla020-cwnd-ack-rtt.png)
+
+![fig/TcpWestwood020-cwnd-ack-rtt.png](fig/TcpWestwood020-cwnd-ack-rtt.png)
+
+![fig/TcpWestwoodPlus020-cwnd-ack-rtt.png](fig/TcpWestwoodPlus020-cwnd-ack-rtt.png)
+
+![fig/TcpVegas020-cwnd-ack-rtt.png](fig/TcpVegas020-cwnd-ack-rtt.png)
+
+![fig/TcpScalable020-cwnd-ack-rtt.png](fig/TcpScalable020-cwnd-ack-rtt.png)
+
+![fig/TcpVeno020-cwnd-ack-rtt.png](fig/TcpVeno020-cwnd-ack-rtt.png)
+
+![fig/TcpBic020-cwnd-ack-rtt.png](fig/TcpBic020-cwnd-ack-rtt.png)
+
+![fig/TcpYeah020-cwnd-ack-rtt.png](fig/TcpYeah020-cwnd-ack-rtt.png)
+
+![fig/TcpIllinois020-cwnd-ack-rtt.png](fig/TcpIllinois020-cwnd-ack-rtt.png)
+
+![fig/TcpHtcp020-cwnd-ack-rtt.png](fig/TcpHtcp020-cwnd-ack-rtt.png)
 
 # License
 * `compare-tcp-algorithms` and `plottcpalgo.py`: MIT
