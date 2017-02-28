@@ -82,7 +82,7 @@ Python script to manipulate and visualize data.
 * `plot_cwnd_ack_rtt_each_algorithm()`: Plot cwnd, ACK, and RTT of each algorithm. It saves twelve `data/Tcp{algorithm}{duration}-cwnd-ack-rtt.png`s.
 * `plot_cwnd_all_algorihtms()`: Plot cwnd and ssthresh of all algorithms. It saves  `data/TcpAll{duration}-cwnd.png`.
 
-# Enjoy comparison
+# Enjoy comparison !
 Just run `compare-tcp-algorithms.sh`.
 
 ```bash
@@ -90,7 +90,11 @@ $ cd ~/ns-3.26/source/ns-3.26
 $ ./compare-tcp-algorithms.sh
 ```
 
+## All algorithms
+
 ![fig/TcpAll.png](fig/TcpAll.png)
+
+## cwnd, ACK, and RTT of each algorithm
 
 # License
 * `compare-tcp-algorithms` and `plottcpalgo.py`: MIT
