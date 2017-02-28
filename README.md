@@ -1,6 +1,6 @@
 # comparing-tcp-algorithms
 
-Codes for comparing TCP congestion control algorithms with ns-3 and visualizing with matplotlib.
+Comparing TCP congestion control algorithms with ns-3 and visualizing with matplotlib.
 
 ![fig/TcpAll.png](fig/TcpAll.png)
 
@@ -48,8 +48,18 @@ Based on [ns-3 implementation](https://www.nsnam.org/docs/models/html/tcp.html),
 
 # Installation
 
-1. Add `tcp-algorithm-comparison.sh` to `~ns-3.26/source/ns-3.26/`
+1. Add `tcp-algorithm-comparison.sh` and `plottcpalgo.py` to `~ns-3.26/source/ns-3.26/`
 
+2. Add `my-tcp-variants-comparison.cc` to `~ns-3.26/source/ns-3.26/scratch`
+
+3. Make a new directry `~ns-3.26/source/ns-3.26/data`
+
+4. Compile `my-tcp-variants-comparison.cc` by the command below:
+
+```bash
+$ cd ~ns-3.26/source/ns-3.26/
+$ ./waf
+```
 
 # Codes
 
