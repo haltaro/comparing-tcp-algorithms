@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
  * Author: haltaro <github.com/haltaro>
- * Reseacher in a Japanese company. His reseach interests are related to
+ * Reseacher at a Japanese company. His reseach interests are related to
  * network architectures, protocols, traffic control, mathematical modeling,
  * optimization, machine learning, and shiba dog :-)
  *
