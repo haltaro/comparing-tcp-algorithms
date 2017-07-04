@@ -23,7 +23,7 @@
 #  SOFTWARE.
 #
 #  Author: haltaro <github.com/haltaro>
-#  Reseacher in a Japanese company. His reseach interests are related to
+#  Reseacher at a Japanese company. His reseach interests are related to
 #  network architectures, protocols, traffic control, mathematical modeling,
 #  optimization, machine learning, and shiba dog :-)
 
