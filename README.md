@@ -1,8 +1,4 @@
-# comparing-tcp-algorithms
-
-Comparing TCP congestion control algorithms with ns-3 and visualizing with matplotlib.
-
-![fig/TcpAll020-cwnd.png](fig/TcpAll020-cwnd.png)
+[Qiita記事](http://qiita.com/haltaro/items/d479538345357f08c595) | [Back to haltaro](https://haltaro.github.io)
 
 # Requirements
 
