@@ -1,4 +1,4 @@
-[日本語（Qiita）](http://qiita.com/haltaro/items/d479538345357f08c595) | [haltaro](https://haltaro.github.io)
+[日本語（Qiita）](http://qiita.com/haltaro/items/d479538345357f08c595) | [haltaro](https://haltaro.github.io/projects)
 
 # Requirements
 
@@ -121,5 +121,3 @@ X-axis is time [s], and Y-axis is cwnd [segment]. The digit lines are cwnd, dott
 # License
 * `compare-tcp-algorithms` and `plottcpalgo.py`: MIT
 * `my-tcp-variants-comparison.cc`: GNU GPLv2
-
-[日本語（Qiita）](http://qiita.com/haltaro/items/d479538345357f08c595) | [haltaro](https://haltaro.github.io)
